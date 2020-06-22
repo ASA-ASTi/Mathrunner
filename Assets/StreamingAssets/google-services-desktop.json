@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "250326370163",
+    "firebase_url": "https://mathrunner-55730525.firebaseio.com",
+    "project_id": "mathrunner-55730525",
+    "storage_bucket": "mathrunner-55730525.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250326370163:android:506e0515f9dfeda9a9e706",
+        "android_client_info": {
+          "package_name": "com.asaasti.mathrunner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "250326370163-66l2a3jmnhposiq46kg6m0h19977oa3l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.asaasti.mathrunner",
+            "certificate_hash": "5d367bab7eb0a2627c46dcce96aa6be2ebaf0b0c"
+          }
+        },
+        {
+          "client_id": "250326370163-00tu8h9f58gt7aon3335ebhukkchidad.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxu5iLd9MUAntspYFsXb0Ilh2oowCU3NQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "250326370163-00tu8h9f58gt7aon3335ebhukkchidad.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

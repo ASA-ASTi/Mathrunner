@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7365212626194822605
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7365212626194822451}
+  - component: {fileID: 7365212626194822604}
+  m_Layer: 0
+  m_Name: platformGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7365212626194822451
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7365212626194822605}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.53, y: 2.41, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7365212626194822604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7365212626194822605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97acf3c59d86af64e99240b43a2b6aa4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  platform: {fileID: 0}
+  Shape:
+  - {fileID: 8612002660025315467, guid: 5fbbcf7f86be377449c06d57dfd0f9f9, type: 3}
+  - {fileID: 6599667375408462888, guid: d2b793204339f6b429dab714b793e26a, type: 3}
+  - {fileID: 2895376263108725339, guid: 5550e50271158134787d7418b9bb1306, type: 3}
+  - {fileID: 3723963396978181778, guid: c78baa949bd72624b9393d70337e0457, type: 3}
+  - {fileID: 4073581000005347741, guid: 43362639150b27f4794cdb956b20a676, type: 3}
+  - {fileID: 8335734524535561341, guid: 898fcf4a0e9ddd24aababb1b9c73f586, type: 3}
+  - {fileID: 7155569933328208655, guid: 83226ddeccb18d84b953623cc62434fa, type: 3}
+  - {fileID: 4710167571599849347, guid: ad45e6e6d57bee3488595dbb2595f351, type: 3}
+  Tree: {fileID: 4726711489393558717, guid: 84aabf56d2e07c746894392ec2ce1558, type: 3}
+  Cloud: {fileID: 0}
+  generationPoint: {fileID: 0}
+  distanceBetween: 2
+  timerShape: 2
+  timerTree: 2
